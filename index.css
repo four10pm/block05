@@ -1,0 +1,25 @@
+
+h1 {
+    color: navy;
+    background-color: white;
+    text-align: center; 
+}
+.navigation {
+    display: flex; 
+    justify-content: space-around;
+}
+h2 {
+    color: blue;
+}
+img {
+    height: 250px; 
+}
+ul {
+    list-style-type: none;
+    color: lightblue; 
+    background-color: white; 
+}
+p {
+    margin: 25px;
+    font-style: italic; 
+}
