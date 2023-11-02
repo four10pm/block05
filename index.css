@@ -1,12 +1,11 @@
 
 #heading {
-    background-color: lightblue; 
+    padding: 5px; 
 }
 
 h1 {
     color: navy;
     text-align: center; 
-    margin-top: 25px;
 }
 
 body {
@@ -16,22 +15,20 @@ body {
 /* navigation styling: */
 .navigation {
     display: flex; 
-    justify-content: space-between;
+    justify-content: space-around;
     border: navy 3px outset; 
     background-color: navy; 
+    padding: 5px; 
 }
 
-/* .navitem {
+.navitem {
     color: lightblue;
     border: navy outset; 
     padding: 0px 10px 0px 10px; 
     font-style: normal;
     background-color: navy; 
-} */
-
-.navitem {
-    margin: 0px; 
 }
+
 
 /* content styling: */
 h2 {
