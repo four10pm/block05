@@ -14,7 +14,7 @@ body {
 
 /* navigation styling: */
 .navigation {
-    display: flex; 
+    display:flex;
     justify-content: space-around;
     border: navy 3px outset; 
     background-color: navy; 
@@ -33,12 +33,14 @@ body {
 /* content styling: */
 h2 {
     color: navy;
+    margin: 25px 10px 5px 10px; 
 }
 
 .animal {
     display: flex;
-    justify-content: left;
+    justify-content: left; 
     background-color: rgba(173, 216, 230, 0.5); 
+    margin: 5px 25px; 
 }
 
 img {
@@ -55,7 +57,7 @@ button {
     background-color: navy;
     border: outset 3px navy;
     color: lightblue;
-    margin: 5px; 
+    margin-left: 25px; 
 }
 
 a {
